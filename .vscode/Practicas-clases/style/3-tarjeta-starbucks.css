@@ -1,0 +1,25 @@
+/* Tarjeta 1 */
+#tarjeta-uno {
+  background-color: #1E3932;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+#tarjeta-uno .contenedor-imagen {
+  flex: 1;
+}
+#tarjeta-uno .contenedor-imagen .imagen-starbucks {
+  max-width: 100%;
+}
+.contenedor-texto {
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+}
