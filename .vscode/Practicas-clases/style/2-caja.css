@@ -1,0 +1,75 @@
+* {
+    font-family: "Catamaran", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(37, 36, 36);
+  }
+  .cajas-main{
+    margin: 15px;
+    text-align:center;
+    
+  }
+  
+  .caja{
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin-right: 10px;
+    background-color: azure;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px 10px 10px 10px;
+    overflow: hidden;
+  }
+  .caja-titulo{
+    margin-bottom: 65px;
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  p{
+    position: relative;
+    z-index: 1;
+    color: #393737;
+  }
+  
+  .boton-custom{
+    margin-top: 40px;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    border: 0;
+  }
+  .caja-naranja{
+    background-color: rgb(227, 138, 22);
+  }
+  .caja-morada {
+    background-color: rgb(157, 28, 196);
+  }
+  .caja-rosa {
+    background-color: rgb(164, 21, 86);
+  
+  }
+  .caja::before{
+    border-radius: 50%;
+    content: '';
+    width: 250px;
+    height: 250px;
+    background-color: rgb(227, 138, 22);
+    left: 0;
+    top: -124px;
+    position: absolute;
+    z-index: 0;
+  }
+  
+  .caja.rosa::before{
+    background-color: rgb(164, 21, 86);
+  }
+  
+  .caja.morada::before {
+    background-color: rgb(157, 28, 196);
+  }
