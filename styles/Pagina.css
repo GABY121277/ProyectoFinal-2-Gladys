@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  body {
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+    background-color: #a0d2eb; 
+    color: #333;
+  }
+  
+ 
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Tarjeta */
+  .tarjeta {
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .tarjeta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Botón */
+  .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffb3c6; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff92ab; 
+  }
+  
+  
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #a0d2eb;
+    color: #333;
+  }
+  
