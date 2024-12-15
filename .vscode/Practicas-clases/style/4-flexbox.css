@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor principal */
+  #contenedorPrincipal {
+    background-color: #030303; /* Fondo oscuro general */
+    height: 1400px; /* Altura del contenedor */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribución de cajas */
+    align-items: center;
+    padding: 10px; /* Espaciado interno */
+  }
+  
+  /* Estilos comunes para las cajas */
+  .caja {
+    color: white; /* Texto blanco */
+    width: 400px; /* Ancho fijo */
+    height: 400px; /* Altura fija */
+    display: flex;
+    justify-content: center; /* Centrado en eje principal */
+    align-items: center; /* Centrado en eje cruzado */
+    border: 1px solid #000;
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Colores individuales para cada caja */
+  .caja-uno {
+    background-color: blue; 
+  }
+  
+  .caja-dos {
+    background-color: rgb(255, 0, 170); 
+  }
+  
+  .caja-tres {
+    background-color: rgb(0, 255, 115); 
+  }
+  
+  .caja-cuatro {
+    background-color: orange; 
+  }
+  
+  
